@@ -1,5 +1,15 @@
-div.wrapper {
-
-    padding: 3%;
-
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.wrapper > div {
+
+    padding: 1em;
+    background-color: bisque;
+    
+}
+.wrapper > div:hover {
+    background-color: blueviolet;
+}
+
